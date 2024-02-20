@@ -24,6 +24,10 @@ create table person (
 insert into person
 values (null, '고다솜', '010-9909-9029', '메이아이');
 
+delete from person
+where person_id=5
+;
+
 select *
 from person
 ;
