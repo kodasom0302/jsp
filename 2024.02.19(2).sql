@@ -31,3 +31,14 @@ where person_id=5
 select *
 from person
 ;
+
+select  person_id as personId,
+		name,
+		hp,
+        company
+from person
+;
+
+insert into person
+values(null,'박원빈', '010-2002-0302', 'SM')
+;
